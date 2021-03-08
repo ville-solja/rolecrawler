@@ -1,5 +1,5 @@
 requests
-from lxml import html
+html
 time
 json
 re
