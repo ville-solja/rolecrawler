@@ -16,9 +16,9 @@ I've opted to push the data to MongoDB in Azure just for it's simplicity. I don'
 ### Container
 This crawler should be available later on from dockerhub and the goal is that it could be setup to run pretty much anywhere without much additional tinkering required
 
-When running script in container you need to supply Token and storename (detailed below)
-Parameter 1: storename
-Parameter 2: token
+When running script in container you need to supply Token and storename as enviromental variables:
+1: storename
+2: token
 
 ### MongoDB
 Regular setup of mongoDB will do just fine, but you should be able to convert this to other storage solutions quite easily. The end result from the containers perspective is JSON so that should be rather easy to push anywhere
