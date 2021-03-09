@@ -1,6 +1,3 @@
 requests
 lxml
-json
-re
 pymongo
-os
